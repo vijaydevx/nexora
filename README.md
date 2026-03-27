@@ -1,12 +1,41 @@
 <div align="center">
 
+<img src="https://img.shields.io/badge/NEXORA-AI%20Website%20Builder-8b5cf6?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0id2hpdGUiPjxwYXRoIGQ9Ik0xMiAyTDIgNy4zNHY5LjMyTDEyIDIyTDIyIDE2LjY2VjcuMzRMMTIgMnptMCAxNC4yTDcuMzggMTIgMTIgNy44IDEzLjkgOS43IDE0LjggMTIgMTIgMTYuMnoiLz48L3N2Zz4=" alt="NEXORA" />
+
 # NEXORA AI
 
-**Premium AI-Powered Website Builder**
+### Build Websites at the Speed of Thought
 
-A futuristic SaaS landing page built with React, TypeScript, Tailwind CSS, and Framer Motion.
+<p align="center">
+<strong>A premium, futuristic SaaS landing page powered by React 19, TypeScript, Tailwind CSS 4, and Framer Motion.</strong>
+</p>
 
-[Live Demo](https://nexora.vercel.app) &bull; [Report Bug](https://github.com/vijaydevx/nexora/issues) &bull; [Request Feature](https://github.com/vijaydevx/nexora/issues)
+<p align="center">
+<a href="https://nexora-swart-chi.vercel.app"><img src="https://img.shields.io/badge/Live_Demo-▶_Visit_Site-8b5cf6?style=for-the-badge" alt="Live Demo" /></a>
+&nbsp;
+<a href="https://github.com/vijaydevx/nexora/issues"><img src="https://img.shields.io/badge/Report-Bug-ef4444?style=for-the-badge" alt="Report Bug" /></a>
+&nbsp;
+<a href="https://github.com/vijaydevx/nexora/issues"><img src="https://img.shields.io/badge/Request-Feature-3b82f6?style=for-the-badge" alt="Request Feature" /></a>
+</p>
+
+<p align="center">
+<img src="https://img.shields.io/badge/React-19-61dafb?style=flat-square&logo=react" />
+<img src="https://img.shields.io/badge/TypeScript-5.8-3178c6?style=flat-square&logo=typescript" />
+<img src="https://img.shields.io/badge/Tailwind-4.1-06b6d4?style=flat-square&logo=tailwindcss" />
+<img src="https://img.shields.io/badge/Vite-6-646cff?style=flat-square&logo=vite" />
+<img src="https://img.shields.io/badge/Framer_Motion-12-ff0055?style=flat-square&logo=framer" />
+<img src="https://img.shields.io/badge/Deploy-Vercel-000?style=flat-square&logo=vercel" />
+</p>
+
+</div>
+
+---
+
+## Preview
+
+<div align="center">
+
+**[nexora-swart-chi.vercel.app](https://nexora-swart-chi.vercel.app)**
 
 </div>
 
@@ -14,78 +43,67 @@ A futuristic SaaS landing page built with React, TypeScript, Tailwind CSS, and F
 
 ## Tech Stack
 
-| Layer | Technology |
-|-------|-----------|
-| Framework | React 19 + TypeScript |
-| Styling | Tailwind CSS 4 |
-| Animation | Framer Motion / Motion |
-| Build | Vite 6 |
-| UI Components | shadcn/ui pattern |
-| Smooth Scroll | Lenis |
-| Deployment | Vercel |
+```
+Frontend        React 19 + TypeScript 5.8
+Styling         Tailwind CSS 4 (Vite plugin)
+Animation       Framer Motion / Motion
+Build           Vite 6
+UI Pattern      shadcn/ui components
+Smooth Scroll   Lenis
+Icons           Lucide React
+Deployment      Vercel
+```
 
-## Features
+## Sections
 
-- **Hero** — Video background with crossfade loop, AI Core particle system, typing text effect
-- **Logo Cloud** — Infinite scrolling logo slider with hover slow-down
-- **About** — Split layout with looping video and staggered text animations
-- **How It Works** — 3-step cards with icon illustrations and scroll reveals
-- **Why NEXORA** — Scrolling glassmorphism card columns (alternating directions)
-- **Testimonials** — Multi-column auto-scrolling cards with gradient masks
-- **Pricing** — Animated toggle, number transitions, hover glow cards
-- **CTA** — Dashboard preview with feathered edges
-- **Footer** — 4-column layout with social links
+| # | Section | Highlights |
+|---|---------|-----------|
+| 1 | **Hero** | Video bg with crossfade loop, AI Core particle system, typing text |
+| 2 | **Logo Cloud** | Infinite scrolling slider with hover slow-down |
+| 3 | **About** | Split layout with looping video + staggered animations |
+| 4 | **How It Works** | 3-step cards with icon illustrations |
+| 5 | **Why NEXORA** | Scrolling glassmorphism columns (alternating directions) |
+| 6 | **Testimonials** | Multi-column auto-scrolling cards |
+| 7 | **Pricing** | Animated toggle, number transitions, hover glow |
+| 8 | **CTA** | Dashboard preview with feathered edges |
+| 9 | **Footer** | 4-column layout with social links |
 
-### Effects System
+## Effects System
 
-- Lenis smooth scrolling
-- Sticky glassmorphism navbar (appears on scroll)
-- Page load animation with progress bar
-- Typing text with blinking cursor
-- Parallax scroll on hero content
-- Magnetic hover buttons
-- Magic cursor sparkle trail
-- Scroll-to-top button
-- Animated link underlines
-- AI Core neural sphere (cursor-reactive)
-- Canvas particle system with connections
-- Gradient shift on scroll
-- Logo glow pulse
+```
+Smooth Scroll ............. Lenis-powered buttery scrolling
+Sticky Navbar ............. Glassmorphism bar on scroll
+Page Loader ............... Logo reveal + progress bar
+Typing Text ............... Letter-by-letter with cursor
+Parallax .................. Hero content depth on scroll
+Magnetic Buttons .......... Cursor-pull hover effect
+Magic Cursor .............. Purple sparkle trail
+Scroll-to-Top ............. Floating action button
+Link Underlines ........... Animated gradient hover
+AI Core ................... Neural sphere (cursor-reactive)
+Particles ................. Canvas system with connections
+Gradient Shift ............ Hue shifts on scroll
+Logo Pulse ................ Subtle glow animation
+Card Hover ................ Lift + tilt + corner light
+```
 
-## Getting Started
-
-### Prerequisites
-
-- Node.js 18+
-- npm or pnpm
-
-### Installation
+## Quick Start
 
 ```bash
+# Clone
 git clone https://github.com/vijaydevx/nexora.git
 cd nexora
+
+# Install
 npm install
-```
 
-### Development
+# Dev
+npm run dev        # → http://localhost:3000
 
-```bash
-npm run dev
-```
+# Build
+npm run build      # → dist/
 
-Opens at [http://localhost:3000](http://localhost:3000)
-
-### Build
-
-```bash
-npm run build
-```
-
-Output in `dist/`
-
-### Preview Production Build
-
-```bash
+# Preview
 npm run preview
 ```
 
@@ -93,61 +111,32 @@ npm run preview
 
 ```
 nexora/
-├── components/ui/          # Reusable UI components (shadcn pattern)
-│   ├── button.tsx
-│   ├── card.tsx
-│   ├── feature-highlight-card.tsx
-│   ├── infinite-slider.tsx
-│   ├── liquid-glass-button.tsx
-│   ├── logo-cloud-3.tsx
-│   ├── magic-cursor.tsx
-│   ├── pricing.tsx
-│   ├── testimonials-columns-1.tsx
-│   ├── timeline-animation.tsx
-│   └── vertical-cut-reveal.tsx
-├── lib/
-│   └── utils.ts            # cn() utility
-├── public/                 # Static assets
+├── components/ui/        # 11 reusable UI components (shadcn pattern)
+├── lib/utils.ts          # cn() utility
+├── public/               # Static assets (images, video)
 ├── src/
-│   ├── components/         # Page sections
-│   │   ├── effects/        # Animation & interaction effects
-│   │   ├── about-section.tsx
-│   │   ├── cta-section.tsx
-│   │   ├── footer-section.tsx
-│   │   ├── how-it-works-section.tsx
-│   │   ├── logo-showcase.tsx
-│   │   ├── testimonials-section.tsx
-│   │   └── why-nexora-section.tsx
-│   ├── App.tsx             # Main application
-│   ├── index.css           # Tailwind + custom styles
-│   └── main.tsx            # Entry point
+│   ├── App.tsx           # Main application
+│   ├── index.css         # Tailwind + custom animations
+│   ├── main.tsx          # Entry point
+│   ├── components/       # 7 page sections
+│   └── components/effects/  # 7 animation effects
 ├── index.html
-├── package.json
-├── tsconfig.json
-└── vite.config.ts
+├── vite.config.ts
+└── tsconfig.json
 ```
 
-## Deployment
+## Deploy
 
-### Vercel (Recommended)
+**Vercel** (recommended) — import from GitHub, auto-detects Vite, zero config.
 
-1. Push to GitHub
-2. Import project on [vercel.com/new](https://vercel.com/new)
-3. Vercel auto-detects Vite — deploy with defaults
-
-### Manual
-
-```bash
-npm run build
-# Serve dist/ with any static host
-```
+**Any static host** — run `npm run build`, serve `dist/`.
 
 ## License
 
-MIT
+[MIT](LICENSE)
 
 ---
 
 <div align="center">
-Built by <a href="https://github.com/vijaydevx">vijaydevx</a>
+<sub>Built by <a href="https://github.com/vijaydevx">@vijaydevx</a></sub>
 </div>
