@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100..900;1,100..900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+}
+
+:root {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+/* Nav link hover underline */
+.nav-link-hover::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0;
+  height: 1.5px;
+  background: linear-gradient(90deg, #8b5cf6, #6d28d9);
+  border-radius: 999px;
+  transition: width 0.3s ease;
+}
+.nav-link-hover:hover::after {
+  width: 100%;
+}
+
+/* Smooth scroll */
+html.lenis, html.lenis body {
+  height: auto;
+}
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+.lenis.lenis-smooth [data-lenis-prevent] {
+  overscroll-behavior: contain;
+}
+
+/* Magic Cursor */
+:root {
+  --mouse-sparkles-glow-rgb: 139 92 246;
+}
+
+.mouse-sparkles-star {
+  position: fixed;
+  z-index: 99999;
+  pointer-events: none;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-out;
+}
+
+.mouse-sparkles-glow-point {
+  position: fixed;
+  z-index: 99998;
+  pointer-events: none;
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background: rgb(var(--mouse-sparkles-glow-rgb) / 0.6);
+  box-shadow: 0 0 8px 2px rgb(var(--mouse-sparkles-glow-rgb) / 0.3);
+}
+
+@keyframes fall-1 {
+  0% {
+    transform: translate(0px, 0px) rotateX(45deg) rotateY(30deg) rotateZ(0deg) scale(0.25);
+    opacity: 0;
+  }
+  5% {
+    transform: translate(10px, -10px) rotateX(45deg) rotateY(30deg) rotateZ(0deg) scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: translate(25px, 200px) rotateX(180deg) rotateY(270deg) rotateZ(90deg) scale(1);
+    opacity: 0;
+  }
+}
+
+@keyframes fall-2 {
+  0% {
+    transform: translate(0px, 0px) rotateX(-20deg) rotateY(10deg) scale(0.25);
+    opacity: 0;
+  }
+  10% {
+    transform: translate(-10px, -5px) rotateX(-20deg) rotateY(10deg) scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: translate(-10px, 160px) rotateX(-90deg) rotateY(45deg) scale(0.25);
+    opacity: 0;
+  }
+}
+
+@keyframes fall-3 {
+  0% {
+    transform: translate(0px, 0px) rotateX(0deg) rotateY(45deg) scale(0.5);
+    opacity: 0;
+  }
+  15% {
+    transform: translate(7px, 5px) rotateX(0deg) rotateY(45deg) scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: translate(20px, 120px) rotateX(-180deg) rotateY(-90deg) scale(0.5);
+    opacity: 0;
+  }
+}
